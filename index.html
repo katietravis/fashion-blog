@@ -33,7 +33,9 @@
 </script>
 
 <!-- Font family -->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
  <!-- Add icon library -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,8 +46,26 @@
 <link rel="stylesheet" href="css/index.css">
 
 <!-- Header nav -->
+<header>
+    <ul class="nav justify-content-center">
+        <img class="logo" src="images/Home/logo.png">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inspire</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ethics</a>
+        </li>
+        <button type="button" class="btn btn-warning">Style Quiz</button>
+      </ul>
+      <hr>
 
-</head>
+</header>
 <!-- End header -->
 
 <!-- Body start -->
@@ -56,7 +76,60 @@
 
 
 <!-- Footer HTML -->
+<div class="container">
+    <footer class="py-5">
+        <div class="row  footer">
+            <div class="col-2">
+            <h5>About Us</h5>
+            </div>
+    
+            <div class="col-2">
+            <h5>Articles</h5>
+            </div>
+    
+            <div class="col-2">
+            <h5>Style Quiz</h5>
+            </div>
 
+            <div class="col-4">
+
+            </div>
+
+        </div>
+        <div class="row  footer">
+            <div class="col-2">
+                <h5>Inspire</h5>
+            </div>
+
+            <div class="col-2">
+                <h5>Style Ethics</h5>
+            </div>
+
+        <div class="row  footer">
+
+        </div>
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Sign Up for E-Mail Updates</h5>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="signup btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>© 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 
 
 </body>
