@@ -44,14 +44,41 @@ hr {
     
         
 /* Footer Styles */
-.footer {
-    background-color: #9B3D73 !important;
+.py-5 {
+    background-color: #9B3D73;
 }
 h5 {
     color: white;
+    margin-left: 30px;
+    margin-bottom: 20px !important;
 }
-.footerimg {
-    height: 200px;
+form {
+    background-image: url(../images/Home/footer\ image.png) !important;
+}
+h4 {
+    text-align: center !important;
+    color: white !important;
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.btn-primary {
+    background-color: #F99100 !important;
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 175px;
+}
+#newsletter1 {
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.icons {
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
