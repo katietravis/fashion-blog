@@ -1,0 +1,38 @@
+.jumbo {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.jumbo img {
+    align-items: center;
+}
+.display {
+    width: 350px;
+}
+.survey {
+    width: 450px;
+    margin-top: 20px;
+}
+.trend {
+    width: 300px;
+}
+h1 {
+    font-size: 25px !important;
+    font-family: 'roboto';
+}
+p {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.col-md-3 p {
+    margin-top: 120px;
+}
+.line {
+    height: 300px;
+    margin-top: 40px;
+}
+.row {
+    margin-bottom: 30px;
+}
