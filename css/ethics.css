@@ -6,103 +6,26 @@ body, html {
 /* Container for hero image */
 .container-fluid-content { 
   text-align: center;  
-  padding: 200px 200px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   position: relative;
+  background-color: #F0E8E1;
+  width: 100%;
   }
 
-.container { 
+  .container { 
       text-align: center;  
-      padding: 30px 30px;
       /* Position and center the image to scale nicely on all screens */
       background-position: center;
       position: relative;
-      width:70px;
+      width:100px;
+      background-color: #F0E8E1;
+      padding: 18px;
       }
 
-.jumbotron {
-  text-align: center;
-  color: #9B3D73;
-}
-
-.jumbotron .lead {
-  font-weight: bolder;
-}
-
-.card-body {
+.container .card {
   text-align: center;
   width: 100%;
+  background-color: #F0E8E1;
+  border: none;
 }
-
-.card-preview {
-  text-align: center;
-  width: 75%;
-  padding: 16px 20px;
-}
-
-/* Card states */
-.card:hover {
-  transform: scale(1.1); 
-  text-decoration: none;
-  color: white;  
-  }
-
-.card:active {
-  text-decoration: none;
-  color: white;
-}
-
-.container-fluid-content {
-text-align: center;
-width: 100%;
-}
-
-.card-container-ethics-pink {
-  margin-bottom: 15px; 
-}
-
-.card-ethics-pink {
-  background-color: #9B3D73;
-}
-
-.card-container-ethics-orange {
-  margin-bottom: 15px;
-  padding: 20px;
-}
-
-.card-ethics-orange {
-  background-color: #F99100;
-}
-
-.card-container-ethics-gray {
-  margin-bottom: 15px; 
-}
-
-.card-ethics-gray {
-  background-color: #505050;
-}
-
-.card-body {
-  text-align: center;
-  width: 100%;
-}
-
-.card-text {
-  color: white;
-  font-weight: normal;
-  font-size: 24px;
-  padding: 14px;
-  text-align: center;
-  }
-
-/* Ethics icons */
-.icon { 
-  transition: all .2s ease-in-out; 
-  text-align: center;
-  align-items: center;
-  }
-  
-  .icon:hover { 
-  transform: scale(1.2); 
-  }
