@@ -21,6 +21,15 @@ body, html {
       width:70px;
       }
 
+.jumbotron {
+  text-align: center;
+  color: #9B3D73;
+}
+
+.jumbotron .lead {
+  font-weight: bolder;
+}
+
 .card-body {
   text-align: center;
   width: 100%;
