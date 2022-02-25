@@ -36,17 +36,9 @@ hr {
     margin-top: 15px;
 }
 /* Style typography */
-h1, h2, h3, h4, h5, h6 {
-    font-family: '#', sans-serif;
-}
 
-h1 {
-    
-    }
 
-h2 {
-    
-    }
+
 
 /* Style buttons */
     
@@ -54,6 +46,10 @@ h2 {
 /* Footer Styles */
 .py-5 {
     background-color: #9B3D73;
+    background-image: url(/images/Home/footer\ image.png);
+    background-size: calc(100vh - 260px);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 h5 {
     color: white;
@@ -64,7 +60,7 @@ h4 {
     text-align: center !important;
     color: white !important;
     font-size: 20px !important;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 .btn-primary {
     background-color: #F99100 !important;
@@ -73,22 +69,24 @@ h4 {
     width: 25%;
     height: 90%;
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 235px;
 }
 #newsletter1 {
     width: 60%;
-    margin-left: 100px;
+    margin-left: 140px;
     margin-top: 10px;
+    
 }
 .icons {
     height: 30px;
     margin-left: 50px;
     margin-top: 20px;
 }
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
-    .element {
-        
-       }
 
-   
+
+h5:hover{
+    color: #F99100;
+}
+/* unvisited link *//* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+}
